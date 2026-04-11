@@ -1,0 +1,30 @@
+# --- SECURITY ---
+.env
+keys.json
+*.pem
+credentials.json
+
+# --- PYTHON ---
+__pycache__/
+*.py[cod]
+*$py.class
+.venv
+venv/
+ENV/
+build/
+dist/*.xlsx
+dist/*.csv
+
+# --- DATA & MODELS (Keep folder structure, ignore content) ---
+data/*
+!data/.gitkeep
+models/*.joblib
+dist/*.html
+dist/*.png
+dist/*.txt
+
+# --- SYSTEM & IDE ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
