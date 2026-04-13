@@ -105,7 +105,7 @@ def main():
                             </div>
                         ''', unsafe_allow_html=True)
     else:
-        st.info("Esperando auditoría...")
+        st.info("waiting audit...")
 
     st.markdown("<br>", unsafe_allow_html=True)
 
