@@ -8,7 +8,7 @@ from analysis import BCNAnalyst, PricePredictor
 from ai_engine import AIBriefer
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
-
+#POO
 def run_social_audit_pipeline():
     print("\n🌍 INITIALIZING: BCN URBAN EQUITY & SUSTAINABILITY AUDIT")
     print("="*65)
